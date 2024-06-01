@@ -1,8 +1,9 @@
-# РЈСЃС‚Р°РЅРѕРІРєР° РєРѕРґРёСЂРѕРІРєРё UTF-8
+# Установка кодировки UTF-8
 $OutputEncoding = [System.Text.Encoding]::UTF8
 
-Write-Host "OEM-РєР»СЋС‡ РїСЂРѕРґСѓРєС‚Р° Windows:"
+$currentDateTime = Get-Date
 $productKey = (Get-WmiObject -query "select * from SoftwareLicensingService").OA3xOriginalProductKey
-$productKey | Out-Host
-Read-Host -Prompt "РќР°Р¶РјРёС‚Рµ Enter РґР»СЏ РІС‹С…РѕРґР°"
-
+Write-Host "Текущая дата: $currentDateTime"
+Write-Host "Имя компьютера: $env:COMPUTERNAME"
+Write-Host "OEM-ключ продукта Windows: $productKey"
+Read-Host -Prompt "Нажмите Enter для выхода"
