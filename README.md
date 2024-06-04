@@ -1,6 +1,6 @@
 <div align="center">
   <a href="https://github.com/PowerShell/PowerShell/tree/master">
-    <img src="https://github.com/PowerShell/PowerShell/blob/master/assets/Powershell_256.png" height="256">
+    <img src="https://github.com/PowerShell/PowerShell/blob/master/assets/Powershell_256.png" height="128">
   </a>
   <h1>Полезные скрипты PowerShell для Win10/11</h1>
 </div>
